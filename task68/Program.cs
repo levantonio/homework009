@@ -20,5 +20,5 @@ int FuncAkkerman(int num1, int num2)
         return FuncAkkerman(num1 - 1, FuncAkkerman(num1, num2 - 1));
 }
 
-int result = FuncAkkerman(n, m);
+int result = FuncAkkerman(n, m); 
 Console.WriteLine($"A({n},{m}) = {result}");
